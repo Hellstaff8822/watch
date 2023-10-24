@@ -162,14 +162,15 @@ a {
   content: "";
   position: absolute;
   display: block;
-  width: 100%;
+  width: 178px;
   height: 1px;
   margin: -9px auto;
   background: #707070;
   bottom: 0;
-  left: 0;
+  left: calc(50% - 89px);
   transform: scaleX(0);
-  transition: transform 0.3s;
+  transition: transform 0.3s ease-in-out;
+  
 }
 .product__descr:hover::before {
   transform: scaleX(1);
