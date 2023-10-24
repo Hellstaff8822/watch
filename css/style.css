@@ -167,7 +167,7 @@ a {
   margin: -9px auto;
   background: #707070;
   bottom: 0;
-  left: calc(50% - 89px);
+  left: calc(50% - 88px);
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
   
